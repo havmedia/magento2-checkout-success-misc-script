@@ -79,7 +79,7 @@ class Data extends AbstractHelper
      */
     public function formatPrice($price)
     {
-        return (float)sprintf('%.2F', $price);
+        return sprintf('%.2F', $price);
     }
 
     /**
